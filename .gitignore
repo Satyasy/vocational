@@ -1,0 +1,72 @@
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+.pnpm-store/
+.pnpm-task-run-state-*
+
+# ==========================================
+# Production & Build Outputs
+# ==========================================
+dist/
+build/
+out/
+.astro/
+
+# ==========================================
+# TypeScript build caches
+# ==========================================
+*.tsbuildinfo
+
+# ==========================================
+# Environment Variables
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Logs & Diagnostic Reports
+# ==========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# ==========================================
+# Test & Coverage Outputs
+# ==========================================
+coverage/
+.nyc_output/
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# ==========================================
+# IDEs & Code Editors
+# ==========================================
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
